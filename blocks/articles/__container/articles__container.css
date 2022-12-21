@@ -1,0 +1,9 @@
+.articles__container {
+}
+
+@media screen and (max-width: 650px) {
+  .articles__container {
+    max-width: 100%;
+    padding: 0;
+  }
+}

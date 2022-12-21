@@ -1,0 +1,10 @@
+.articles__url {
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 650px) {
+  .articles__url {
+    padding: 0 16px;
+    margin-bottom: 32px;
+  }
+}

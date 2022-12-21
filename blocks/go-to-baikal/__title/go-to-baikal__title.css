@@ -1,0 +1,30 @@
+.go-to-baikal__title {
+  max-width: 560px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+  margin: 0 0 32px 0;
+  z-index: 2;
+}
+
+@media screen and (max-width: 600px) {
+  .go-to-baikal__title {
+    font-size: 46px;
+    line-height: 48px;
+    margin: 0 0 16px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .go-to-baikal__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .go-to-baikal__title {
+    max-width: 250px;
+  }
+}

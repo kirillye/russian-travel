@@ -1,0 +1,21 @@
+.articles__info {
+  max-width: 484px;
+  flex-shrink: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+}
+
+@media screen and (max-width: 777px) {
+  .articles__info {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .articles__info {
+    margin-top: 32px;
+    padding: 0 16px;
+    /* text-align: center; */
+  }
+}

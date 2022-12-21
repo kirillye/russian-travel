@@ -1,0 +1,30 @@
+.description__sub-title {
+  margin: 0 auto;
+  max-width: 640px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  padding-bottom: 64px;
+}
+@media screen and (max-width: 1025px) {
+  .description__sub-title {
+    padding-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .description__sub-title {
+    font-size: 25px;
+    line-height: 30px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .description__sub-title {
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 40px;
+  }
+}

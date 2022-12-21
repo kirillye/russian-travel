@@ -1,0 +1,15 @@
+.about__list {
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 777px) {
+  .about__list {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .about__list {
+    margin-bottom: 64px;
+  }
+}
