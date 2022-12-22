@@ -1,14 +1,13 @@
 .description__image {
   position: relative;
-  max-width: 984px;
-  width: 100%;
   height: auto;
   z-index: 1;
+  width: 100%;
   padding-bottom: 8px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .description__image {
-    max-width: 928px;
+   max-width: 100%;
   }
 }

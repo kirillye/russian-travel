@@ -1,0 +1,8 @@
+.baikal__link {
+  z-index: 3;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

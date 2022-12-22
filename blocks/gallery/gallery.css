@@ -18,13 +18,6 @@
   }
 }
 
-@media screen and (max-width: 777px) {
-  .gallery {
-    gap: 16px;
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
 @media screen and (max-width: 650px) {
   .gallery {
     gap: 12px;

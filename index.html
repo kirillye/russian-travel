@@ -7,42 +7,38 @@
     <link rel="stylesheet" href="pages/index.css" />
   </head>
   <body class="page page_theme_black">
-    <header class="header">
-      <div class="container">
-        <div class="header__body">
+    <header class="header header__body page__container">
           <img
             src="./images/header-logo.svg"
             alt="Логотип сайта"
             class="header__logo"
           />
           <ul class="header__languages list">
-            <li class="header__language header__language_status_active links">
+            <li class="header__language header__language_active links">
               Ru
             </li>
             <li class="header__language links">En</li>
           </ul>
-        </div>
-      </div>
     </header>
     <main class="content">
       <section class="description">
-        <div class="container container_size_small">
           <h1 class="description__title">Путешествия по России</h1>
           <h2 class="description__sub-title">
             Настоящая страна не в выпусках новостей, а здесь.
           </h2>
-        </div>
-        <img
-          src="./images/lead-polka.jpg"
-          alt="карта дороги"
-          class="description__image"
-        />
-        <p class="container container_size_small description__image-desc">
-          ваша полка — верхняя
-        </p>
+          <figure class="description__cart">
+            <img
+            src="./images/lead-polka.jpg"
+            alt="карта дороги"
+            class="description__image page__container page__container_size_small description__image-container"
+            />
+            <figcaption class="description__image-desc page__container page__container_size_small">
+              ваша полка — верхняя
+            </figcaption>
+          </figure>
+
       </section>
-      <section class="about">
-        <div class="container container_size_small">
+      <section class="about page__container page__container_size_small">
           <h2 class="about__title">Чего мы там не видели?</h2>
           <p class="about__desc">
             По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
@@ -57,20 +53,16 @@
             вашего отпуска.
           </p>
           <ul class="about__list list">
-            <li class="about__list-item">Часовых поясов 11</li>
-            <li class="about__list-item">
-              Объектов природного наследия ЮНЕСКО 12
+            <li class="about__list-item"><span class="about__accent">Часовых поясов</span> 11</li>
+            <li class="about__list-item"><span class="about__accent">Объектов природного наследия ЮНЕСКО</span> 12
             </li>
-            <li class="about__list-item">
-              Объектов культурного наследия ЮНЕСКО 16
+            <li class="about__list-item"><span class="about__accent">Объектов культурного наследия ЮНЕСКО</span> 16
             </li>
-            <li class="about__list-item">Природных заповедников 105</li>
-            <li class="about__list-item">Аэропортов 241</li>
+            <li class="about__list-item"><span class="about__accent">Природных заповедников</span> 105</li>
+            <li class="about__list-item"><span class="about__accent">Аэропортов</span> 241</li>
           </ul>
-        </div>
       </section>
-      <div class="photo">
-        <div class="container">
+      <section class="photo page__container">
           <ul class="gallery list">
             <li class="gallery__item">
               <img
@@ -157,10 +149,8 @@
               />
             </li>
           </ul>
-        </div>
-      </div>
-      <section class="articles">
-        <div class="container container_size_small articles__container">
+      </section>
+      <section class="articles page__container page__container_size_small articles__container">
           <ul class="articles__list list">
             <li class="articles__item">
               <h2 class="articles__title">Куршская коса</h2>
@@ -314,22 +304,21 @@
               </div>
             </li>
           </ul>
-        </div>
       </section>
-      <section class="go-to-baikal">
+      <section class="baikal">
         <a
           href="https://stampsy.com/na-elektrichkakh-do-baikala"
-          class="go-to-baikal__link"
-        ></a>
-        <h2 class="go-to-baikal__title">До Байкала «на собаках»</h2>
-        <p class="go-to-baikal__desc">
+          class="baikal__link"
+        >
+        <h2 class="baikal__title">До Байкала «на собаках»</h2>
+        <p class="baikal__desc">
           По мотивам учебной темы о Транссибе — путешествие от столицы до
           Байкала на электричках.
         </p>
+      </a>
       </section>
     </main>
-    <footer class="footer">
-      <div class="container footer__container">
+    <footer class="footer page__container footer__container">
         <nav>
           <ul class="list footer__list">
             <li>
@@ -360,7 +349,6 @@
           </ul>
         </nav>
         <p class="footer__author">© 2022. Кирилл</p>
-      </div>
     </footer>
   </body>
 </html>

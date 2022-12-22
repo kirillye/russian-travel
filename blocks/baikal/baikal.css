@@ -1,4 +1,4 @@
-.go-to-baikal {
+.baikal {
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -6,7 +6,7 @@
   flex-direction: column;
   max-width: 1184px;
   width: 100%;
-  height: 740px;
+  min-height: 740px;
   background-image: url(../../images/cover-trains.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -14,26 +14,47 @@
   position: relative;
 }
 
+.baikal::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #2a2c2f;
+  opacity: 0.3;
+  transition: opacity 0.5s linear;
+}
+
+.baikal:hover::after    {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
 @media screen and (max-width: 1025px) {
-  .go-to-baikal {
-    height: 640px;
+  .baikal {
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 769px) {
-  .go-to-baikal {
-    height: 480px;
+  .baikal {
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .go-to-baikal {
-    height: 380px;
+  .baikal {
+    min-height: 380px;
   }
 }
 
 @media screen and (max-width: 322px) {
-  .go-to-baikal {
-    height: 200px;
+  .baikal {
+    min-height: 200px;
   }
 }
