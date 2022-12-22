@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 321px) {
-  .go-to-baikal__desc {
+  .baikal__desc {
     font-size: 14px;
     line-height: 16px;
     max-width: 288px;

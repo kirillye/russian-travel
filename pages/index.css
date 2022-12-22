@@ -62,7 +62,7 @@
 
 /* baikal */
 @import url(../blocks/baikal/__title/baikal__title.css);
-@import url(../blocks/baikal/_desc/baikal__desc.css);
+@import url(../blocks/baikal/__desc/baikal__desc.css);
 @import url(../blocks/baikal/__link/baikal__link.css);
 @import url(../blocks/baikal/baikal.css);
 
