@@ -8,6 +8,9 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__container/page__container.css);
 @import url(../blocks/page/__container/_size/page__container_size_small.css);
+@import url(../blocks/page/__container/_position/page__container_position_header.css);
+@import url(../blocks/page/__container/_position/page__container_position_articles.css);
+@import url(../blocks/page/__container/_position/page__container_position_footer.css);
 @import url(../blocks/page/_theme/page_theme_black.css);
 
 /* list */

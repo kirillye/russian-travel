@@ -1,8 +1,5 @@
-.articles__container {
-}
-
 @media screen and (max-width: 650px) {
-  .articles__container {
+  .page__container_position_articles {
     max-width: 100%;
     padding: 0;
   }

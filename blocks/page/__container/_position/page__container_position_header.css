@@ -1,0 +1,10 @@
+.page__container_position_header{
+  margin-top: 28px;
+}
+
+
+@media screen and (max-width: 500px) {
+  .page__container_position_header{
+    margin-top: 16px;
+  }
+}

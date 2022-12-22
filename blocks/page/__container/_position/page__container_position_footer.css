@@ -1,4 +1,4 @@
-.footer__container {
+.page__container_position_footer {
   display: flex;
   justify-content: space-between;
   margin-top: 92px;
@@ -7,13 +7,13 @@
 }
 
 @media screen and (max-width: 670px) {
-  .footer__container {
+  .page__container_position_footer {
     display: block;
   }
 }
 
 @media screen and (max-width: 322px) {
-  .footer__container {
+  .page__container_position_footer {
     margin-top: 64px;
   }
 }
